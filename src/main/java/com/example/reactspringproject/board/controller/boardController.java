@@ -17,7 +17,7 @@ import com.example.reactspringproject.board.service.boardService;
 
 @RestController
 @RequestMapping("/board")
-@CrossOrigin("http://localhost:8089")
+@CrossOrigin("http://localhost:80")
 public class boardController {
 	@Autowired
 	boardService boardservice;
